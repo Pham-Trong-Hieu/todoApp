@@ -8,7 +8,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "react-scripts build",
+
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --exec babel-node src/server.js",
     "erd": "sequelize-erd --source src/models/diagram.js --destination src/erd.svg"
